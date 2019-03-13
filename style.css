@@ -1,0 +1,55 @@
+body {
+    margin: 40px 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    /* position: relative;
+    left: 50px;
+    top: 50px; */
+    display: block;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 150px;
+    font-size: 25px;
+    /* padding: 100px 0px 0px 120px; */
+    transition: .3s;
+    outline: none;
+    background-size: cover;
+    /* transform: rotate(30deg); */
+    /* border-radius: 50%; */
+    /* background-position: 0 70%; */
+    border: 1px solid black;
+    /* text-shadow: 0 0 2px yellow, 0 0 2px yellow; */
+    background-color: #fff;
+    /* background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/scoutfrontuk2.jpg?itok=9JtvHHg7"); */
+}
+
+button:hover {
+    /* color: #fff; */
+    /* background-color: rgb(27, 56, 219); */
+    /* border: none; */
+    height: 70px;
+    width: 180px;
+    font-size: 35px;
+    box-shadow: 0 0 14px grey, 0 0 14px grey;
+    /* background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/scoutfrontuk2.jpg?itok=9JtvHHg7"); */
+    /* border-radius: 50%; */
+    background-size: 150%;
+}
+
+p {
+    text-indent: 2em;
+    font-family: arial;
+    font-size: 20px;
+    line-height: 30px;
+    transition: 2s;
+
+}
+
+p::selection {
+    color: lightseagreen;
+    /* background-color: green; */
+}
